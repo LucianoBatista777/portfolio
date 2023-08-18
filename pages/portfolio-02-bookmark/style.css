@@ -1,0 +1,381 @@
+* {
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 1111px;
+    height: 32px;
+    top: 60px;
+}
+
+.menu {
+    width: 90%;
+    position: absolute;
+    right: 0.5%;
+}
+
+.home {
+    text-decoration: none;
+    position: absolute;
+    height: 14px;
+    left: 74.89%;
+    right: 21.24%;
+    top: calc(50% - 14px/2);
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+
+
+}
+
+.home:active {
+    color: #5FB4A2;
+}
+
+.portifolio {
+    text-decoration: none;
+    position: absolute;
+    height: 14px;
+    left: 82.54%;
+    right: 9.99%;
+    top: calc(50% - 14px/2);
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.portifolio:active {
+    color: #5FB4A2;
+
+}
+
+.contato {
+    text-decoration: none;
+    position: absolute;
+    height: 14px;
+    left: 93.88%;
+    right: 0%;
+    top: calc(50% - 14px/2);
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+}
+
+.contato:active {
+    color: #5FB4A2;
+}
+
+.bookmark-bunner {
+    position: absolute;
+    width: 1110px;
+    height: 500px;
+    top: 190px;
+    background-image: url(../../assets/portfolio/bookmark/image-bookmark-hero.jpg);
+    background-size: cover;
+}
+
+.manage-container {
+    position: absolute;
+    width: 1110px;
+    height: 1192px;
+    top: 805px;
+}
+
+.manage-detalhes {
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+    position: absolute;
+    width: 350px;
+    height: 500px;
+}
+
+.title {
+    position: absolute;
+    height: 42px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 42px/2 - 125px);
+
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.paragrafo {
+    position: absolute;
+    height: 120px;
+    left: 0%;
+    right: 0%;
+    top: calc(50% - 120px/2 - 16px);
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+
+
+    color: #33323D;
+
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+
+.more-infos {
+    position: absolute;
+    height: 30px;
+    left: 0%;
+    right: 0%;
+    top: 320px;
+
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+
+
+    color: #5FB4A2;
+}
+
+.buttom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 175px;
+    height: 48px;
+    position: absolute;
+    left: 0%;
+    right: 50%;
+    top: 83.56%;
+    bottom: 0%;
+    text-decoration: none;
+    color: #33323D;
+    border: 1px solid #33323D;
+}
+
+.manage-detalhes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    position: absolute;
+    width: 635px;
+    height: 1192px;
+    left: 43%;
+}
+
+.projetos-adicionais {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    width: 1110px;
+    height: 132px;
+    top: 2061px;
+}
+
+.fylo {
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    width: 162px;
+    height: 66px;
+    left: 90px;
+}
+
+.bookmark {
+    position: absolute;
+    width: 178px;
+    height: 66px;
+    left: 80%;
+}
+
+.sub-footer {
+    position: absolute;
+    width: 1110px;
+    height: 84px;
+    top: 170%;
+}
+
+.paragrafo-sub-footer {
+    position: absolute;
+    height: 84px;
+    left: 0%;
+    right: 66.94%;
+    top: calc(50% - 84px/2);
+
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 42px;
+    /* or 105% */
+
+    letter-spacing: -0.357143px;
+
+    color: #33323D;
+}
+
+.link-sub-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    left: 84.86%;
+    right: 0%;
+    top: 21.43%;
+    bottom: 21.43%;
+    border: 1px solid #33323D;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #33323D;
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    height: 80px;
+    width: 100vw;
+    left: -8%;
+    top: 300%;
+
+    background: #33323D;
+}
+
+.icon-footer {
+    position: absolute;
+    width: 61px;
+    height: 32px;
+    left: 85px;
+}
+
+.links-do-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 20%;
+    width: 400px;
+    height: 30%;
+}
+
+.home-footer {
+    text-decoration: none;
+    height: 14px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.home-footer:active {
+    color: #5FB4A2;
+}
+
+.portifolio-footer {
+    text-decoration: none;
+    height: 14px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.portifolio-footer:active {
+    color: #5FB4A2;
+}
+
+.contato-footer {
+    text-decoration: none;
+    height: 14px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.contato-footer:active {
+    color: #5FB4A2;
+}
+
+.redes-sociais-footer {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 35%;
+    left: 85%;
+    gap: 16px;
+}
